@@ -34,21 +34,20 @@ get_entity = table_client.get_entity(
 After getting the entity set, then perform the update.
 """
 #Set new age
-get_entity["mom"] = "Georgina Owusu"
+get_entity["friends"] = "Mirabel"
 
 #Update an entity
-get_entity_responds = table_client.update_entity(get_entity)
+get_entity_responds = table_client.upsert_entity(get_entity)
 
 #Display responds
 print(get_entity)
 print("===========================================================")
 print(get_entity_responds)
 
-
 """
 Note:
     When you wont to add new column to
     your table, you just have to perform
-    an update statement, and add the name
+    an upset statement, and add the name
     of the new COLUMN to your entity set.
 """
