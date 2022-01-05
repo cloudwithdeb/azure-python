@@ -1,4 +1,6 @@
 azure-identity
 azure-storage-blob
 azure-data-tables
-pyodbc-4.0.32
+pyodbc
+azure-appconfiguration
+azure-keyvault-secrets
