@@ -1,2 +1,2 @@
 #!/bin/bash
-az webapp up --sku F1 --plan testingsecond --name secondappserviceplan --runtime "PYTHON|3.8" --logs
+az webapp up --sku F1 --plan ASP-azAppServicePlan-ada7 --name azureappserviceplanlinux --runtime "PYTHON|3.8"
